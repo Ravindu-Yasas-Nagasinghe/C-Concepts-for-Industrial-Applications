@@ -1,15 +1,12 @@
 class CoffeeMachineInterface {
-private:
-  Selection* selection;
 public:
-  CoffeeMachineInterface(Selection* selection){
-    selection = selection;
+  CoffeeMachineInterface(){
+    cout<< "Coffee machine interface"<<endl;
   }
   void chooseFirstSelection(){
-    selection->selectFirst()
+    cout<<"Select 1 of new coffee machine"<<endl;
   }
   void chooseSecondSelection(){
-    selection->selectSecond()
+     cout<<"Select 2 of new coffee machine"<<endl;
   }
-  return;
-}
+};

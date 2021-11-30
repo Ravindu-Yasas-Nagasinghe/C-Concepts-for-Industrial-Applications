@@ -10,3 +10,4 @@ public:
      cout<<"Select 2 of new coffee machine"<<endl;
   }
 };
+
